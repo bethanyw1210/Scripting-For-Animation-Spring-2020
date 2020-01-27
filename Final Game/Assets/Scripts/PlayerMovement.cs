@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 position;
     private CharacterController controller;
 
-    public float speed = 10f, gravity = -2f, jumpSpeed = 32f;
+    public float speed = 10f, gravity = -2f, jumpSpeed = 32f, jumpCount, jumpCountMax = 1;
 
     void Start()
     {
@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         if (controller.isGrounded)
         {
             position.y = 0f;
+            jumpCount = 0;
         }
 
         if (!controller.isGrounded)
@@ -29,9 +30,10 @@ public class PlayerMovement : MonoBehaviour
             position.y += gravity;
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
             position.y = jumpSpeed;
+            jumpCount++;
         }
         controller.Move (position * Time.deltaTime);
     }
