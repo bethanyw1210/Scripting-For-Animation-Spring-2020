@@ -57,8 +57,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewClass.cs" />
-    <Compile Include="Assets\Scripts\Newer.cs" />
+    <Compile Include="Assets\Scripts\Assignment0\NewClass.cs" />
+    <Compile Include="Assets\Scripts\Assignment0\Newer.cs" />
+    <Compile Include="Assets\Scripts\Assignment1\TriggerEvent.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

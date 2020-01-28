@@ -12,14 +12,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/NewClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Newer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
       <workItem from="1578937084769" duration="39000" />
       <workItem from="1578937193302" duration="1542000" />
       <workItem from="1579714736672" duration="2266000" />
+      <workItem from="1580146259905" duration="1663000" />
     </task>
     <servers />
   </component>
