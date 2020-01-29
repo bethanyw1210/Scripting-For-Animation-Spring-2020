@@ -12,7 +12,9 @@
             <e p="Newer.cs" t="Include" />
           </e>
           <e p="Assignment1" t="Include">
+            <e p="MouseEvents.cs" t="Include" />
             <e p="TriggerEvent.cs" t="Include" />
+            <e p="TriggeringEvents.cs" t="Include" />
           </e>
         </e>
       </e>
