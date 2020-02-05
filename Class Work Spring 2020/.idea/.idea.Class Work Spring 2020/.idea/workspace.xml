@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/MouseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -56,10 +58,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15008">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15008" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -80,6 +82,8 @@
       <workItem from="1580146259905" duration="1663000" />
       <workItem from="1580227825456" duration="356000" />
       <workItem from="1580317690527" duration="2466000" />
+      <workItem from="1580923442775" duration="92000" />
+      <workItem from="1580923551432" duration="3011000" />
     </task>
     <servers />
   </component>

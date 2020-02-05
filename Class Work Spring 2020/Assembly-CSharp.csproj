@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Assignment0\NewClass.cs" />
     <Compile Include="Assets\Scripts\Assignment0\Newer.cs" />
+    <Compile Include="Assets\Scripts\Assignment1\CharacterMover.cs" />
     <Compile Include="Assets\Scripts\Assignment1\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Assignment1\TriggerEvent.cs" />
     <Compile Include="Assets\Scripts\Assignment1\TriggeringEvents.cs" />
