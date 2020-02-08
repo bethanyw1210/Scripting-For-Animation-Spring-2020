@@ -6,16 +6,16 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
-    public NavMeshAgent enemy;
-    public Transform currentDestination;
-    public GameObject startObj;
+    private NavMeshAgent agent;
+    private Transform currentDestination;
+    private GameObject startObj;
     public Transform destinationObj;
     void Start()
     {
         startObj = new GameObject();
         startObj.transform.position = transform.position;
         currentDestination = transform;
-        enemy = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,6 +30,6 @@ public class AIMovement : MonoBehaviour
 
     private void Update()
     {
-        enemy.destination = currentDestination.position;
+        agent.destination = currentDestination.position;
     }
 }
