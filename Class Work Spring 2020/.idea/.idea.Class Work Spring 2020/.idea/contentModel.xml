@@ -17,6 +17,10 @@
             <e p="TriggerEvent.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
+          <e p="Assignment2" t="Include">
+            <e p="IfStatements.cs" t="Include" />
+            <e p="RigidBodyForces.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Class Work Spring 2020.sln" t="IncludeFlat" />
