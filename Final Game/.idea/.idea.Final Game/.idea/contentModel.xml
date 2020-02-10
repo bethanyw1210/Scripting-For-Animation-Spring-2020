@@ -11,6 +11,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CreateData.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="ObjectMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>

@@ -10,11 +10,17 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     public GameObject objTag;
 
-    public float speed = 10f, gravity = -2f, jumpSpeed = 32f, jumpCount, jumpCountMax = 1;
+    public float speed = 10f, gravity = -2f, jumpSpeed = 32f, jumpCount, jumpCountMax = 2f;
+    
+    public GameObject weapon;
+    public GameObject spawnPoint;
+    public float spawnTime = 2f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        
+        StartCoroutine(SpawnWeapon());
     }
     
     void Update()
@@ -28,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (!controller.isGrounded)
-        {
+        { 
             position.y += gravity;
         }
 
@@ -38,5 +44,17 @@ public class PlayerMovement : MonoBehaviour
             jumpCount++;
         }
         controller.Move (position * Time.deltaTime);
+    }
+
+    IEnumerator SpawnWeapon()
+    {
+        while (true)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                Instantiate(weapon, spawnPoint.transform.position, Quaternion.identity);
+            }
+            yield return new WaitForSeconds(spawnTime);
+        }
     }
 }
