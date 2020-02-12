@@ -63,8 +63,11 @@
     <Compile Include="Assets\Scripts\Assignment1\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Assignment1\TriggerEvent.cs" />
     <Compile Include="Assets\Scripts\Assignment1\TriggeringEvents.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\ControlLight.cs" />
     <Compile Include="Assets\Scripts\Assignment2\IfStatements.cs" />
     <Compile Include="Assets\Scripts\Assignment2\RigidBodyForces.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\SpriteController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -18,8 +18,11 @@
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
           <e p="Assignment2" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="ControlLight.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
             <e p="RigidBodyForces.cs" t="Include" />
+            <e p="SpriteController.cs" t="Include" />
           </e>
         </e>
       </e>

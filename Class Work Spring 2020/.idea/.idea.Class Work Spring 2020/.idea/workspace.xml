@@ -14,10 +14,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,6 +34,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/IfStatements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/RigidBodyForces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +96,7 @@
       <workItem from="1580923442775" duration="92000" />
       <workItem from="1580923551432" duration="3011000" />
       <workItem from="1581354999681" duration="3369000" />
+      <workItem from="1581528278969" duration="2961000" />
     </task>
     <servers />
   </component>
