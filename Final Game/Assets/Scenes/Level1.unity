@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 396185352}
   m_Layer: 0
   m_Name: Wall3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2165,7 +2165,7 @@ GameObject:
   - component: {fileID: 807062253}
   m_Layer: 0
   m_Name: Wall5
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2736,7 +2736,7 @@ GameObject:
   - component: {fileID: 1011944456}
   m_Layer: 0
   m_Name: Wall4 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3520,7 +3520,7 @@ GameObject:
   - component: {fileID: 1428048938}
   m_Layer: 0
   m_Name: Wall2 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3634,15 +3634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbbf01f5a0bb8c469db1ccd85fe4ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objTag: {fileID: 0}
   speed: 10
   gravity: -2
   jumpSpeed: 30
   jumpCount: 0
   jumpCountMax: 2
-  weapon: {fileID: 6105094627937394764, guid: 4b481ceb5865c694a994e95993d429cd, type: 3}
-  spawnPoint: {fileID: 2007228475}
-  spawnTime: 10
 --- !u!143 &1470249268
 CharacterController:
   m_ObjectHideFlags: 0
@@ -4289,7 +4285,7 @@ GameObject:
   - component: {fileID: 1775504018}
   m_Layer: 0
   m_Name: Wall4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4302,7 +4298,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775504017}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.63, y: 10.8, z: 2}
@@ -4642,7 +4638,7 @@ GameObject:
   - component: {fileID: 1862073776}
   m_Layer: 0
   m_Name: Wall3 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4994,7 +4990,7 @@ GameObject:
   - component: {fileID: 1944198674}
   m_Layer: 0
   m_Name: Wall1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5010,8 +5006,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.61, y: 14.4, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.9628186, y: 14.4, z: 2}
+  m_Center: {x: -0.17640948, y: 0, z: 0}
 --- !u!212 &1944198675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5087,7 +5083,7 @@ GameObject:
   - component: {fileID: 1964828180}
   m_Layer: 0
   m_Name: Wall2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5100,7 +5096,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964828179}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.61, y: 7.21, z: 2}
@@ -5179,7 +5175,7 @@ GameObject:
   m_Layer: 0
   m_Name: WeaponSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

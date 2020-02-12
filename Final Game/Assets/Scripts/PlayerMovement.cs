@@ -8,19 +8,12 @@ public class PlayerMovement : MonoBehaviour
 {
     private Vector3 position;
     private CharacterController controller;
-    public GameObject objTag;
 
     public float speed = 10f, gravity = -2f, jumpSpeed = 32f, jumpCount, jumpCountMax = 2f;
-    
-    public GameObject weapon;
-    public GameObject spawnPoint;
-    public float spawnTime = 2f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        
-        StartCoroutine(SpawnWeapon());
     }
     
     void Update()
@@ -46,15 +39,12 @@ public class PlayerMovement : MonoBehaviour
         controller.Move (position * Time.deltaTime);
     }
 
-    IEnumerator SpawnWeapon()
+    /*private void OnCollisionEnter(Collision other)
     {
-        while (true)
+        if(GameObject.FindGameObjectWithTag("Wall"))
         {
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                Instantiate(weapon, spawnPoint.transform.position, Quaternion.identity);
-            }
-            yield return new WaitForSeconds(spawnTime);
+            jumpCount = 0f;
+            jumpCountMax = 1f;
         }
-    }
+    }*/
 }
