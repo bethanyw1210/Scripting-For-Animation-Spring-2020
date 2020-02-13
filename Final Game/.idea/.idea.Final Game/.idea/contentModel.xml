@@ -13,7 +13,10 @@
           <e p="FloatData.cs" t="Include" />
           <e p="ObjectMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="ShootWeapon.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
+          <e p="UITextControl.cs" t="Include" />
+          <e p="UITextControl1.cs" t="Include" />
         </e>
       </e>
       <e p="Final Game.sln" t="IncludeFlat" />

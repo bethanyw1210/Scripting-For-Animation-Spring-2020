@@ -65,7 +65,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ShootWeapon.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
-    <Compile Include="Assets\Scripts\WallJump.cs" />
+    <Compile Include="Assets\Scripts\UIImageControl.cs" />
+    <Compile Include="Assets\Scripts\UITextControl.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Final Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

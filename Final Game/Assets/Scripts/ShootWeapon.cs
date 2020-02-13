@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class ShootWeapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject laser;
+    public GameObject spawnPoint;
+    public float spawnTime = 1f;
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Spawn()
     {
-        
+        while (true)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                Instantiate(laser, spawnPoint.transform.position, Quaternion.identity);
+            }
+            
+            yield return new WaitForSeconds(spawnTime);
+        }
+
     }
 }
