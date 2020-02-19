@@ -11,7 +11,7 @@ public class TriggerEvent : MonoBehaviour
     }
     
 
-    private void OnTriggerStay(Collider other)
+    /*private void OnTriggerStay(Collider other)
     {
         triggerStayEvent.Invoke();
     }
@@ -19,5 +19,5 @@ public class TriggerEvent : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         triggerExitEvent.Invoke();
-    }
+    }*/
 }

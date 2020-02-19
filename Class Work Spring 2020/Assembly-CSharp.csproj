@@ -65,7 +65,10 @@
     <Compile Include="Assets\Scripts\Assignment1\TriggeringEvents.cs" />
     <Compile Include="Assets\Scripts\Assignment2\CameraController.cs" />
     <Compile Include="Assets\Scripts\Assignment2\ControlLight.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\FloatData.cs" />
     <Compile Include="Assets\Scripts\Assignment2\IfStatements.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\ImageBehavior.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\IntData.cs" />
     <Compile Include="Assets\Scripts\Assignment2\RigidBodyForces.cs" />
     <Compile Include="Assets\Scripts\Assignment2\SpriteController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
