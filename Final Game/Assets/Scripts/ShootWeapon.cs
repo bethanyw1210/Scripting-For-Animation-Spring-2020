@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ShootWeapon : MonoBehaviour
 {
-    public GameObject laser;
+    public GameObject weapon;
     public GameObject spawnPoint;
-    public float spawnTime = 1f;
+    private float spawnTime = 1f;
 
-    private IEnumerator Spawn()
+    IEnumerator Spawn()
     {
         while (true)
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift))
             {
-                Instantiate(laser, spawnPoint.transform.position, Quaternion.identity);
+                Instantiate(weapon, spawnPoint.transform.position, Quaternion.identity);
             }
             
             yield return new WaitForSeconds(spawnTime);

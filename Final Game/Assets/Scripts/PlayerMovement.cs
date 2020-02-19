@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 position;
     private CharacterController controller;
 
-    public float speed = 10f, gravity = -2f, jumpSpeed = 32f, jumpCount, jumpCountMax = 2f;
+    private float speed = 10f, gravity = -1.5f, jumpSpeed = 20f, jumpCount, jumpCountMax = 1f;
 
     void Start()
     {
@@ -39,12 +39,12 @@ public class PlayerMovement : MonoBehaviour
         controller.Move (position * Time.deltaTime);
     }
 
-    /*private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         if(GameObject.FindGameObjectWithTag("Wall"))
         {
             jumpCount = 0f;
-            jumpCountMax = 1f;
+            /*jumpCountMax = 1f;*/
         }
-    }*/
+    }
 }
