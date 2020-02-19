@@ -8,7 +8,7 @@ public class ShootWeapon : MonoBehaviour
     public GameObject spawnPoint;
     public float spawnTime = 1f;
 
-    IEnumerator Spawn()
+    private IEnumerator Spawn()
     {
         while (true)
         {
