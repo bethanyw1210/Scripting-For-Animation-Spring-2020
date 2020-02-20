@@ -7,10 +7,10 @@ using UnityEngine.Events;
 public class TriggerEvents : MonoBehaviour
 {
     public UnityEvent triggerEnter;
-    public GameObject objTag;
 
     private void OnTriggerEnter(Collider other)
     {
         triggerEnter.Invoke();
     }
+    
 }

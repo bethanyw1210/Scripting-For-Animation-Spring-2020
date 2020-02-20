@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CreateData.cs" />
     <Compile Include="Assets\Scripts\CrystalCounter.cs" />
+    <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GetCrystal.cs" />
     <Compile Include="Assets\Scripts\ObjectMovement.cs" />
