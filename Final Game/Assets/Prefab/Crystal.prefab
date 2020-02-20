@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2855943602456021617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1, y: -0.66, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 2855943603010536105}
   m_RootOrder: 0
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a626a9134e019a94693c024179919298, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3617786ab8adc8a4baa6a31798c380a8, type: 3}
   m_Color: {r: 0, g: 0.9150943, b: 0.6804745, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,8 +133,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0442677, y: 1.1032963, z: 1}
-  m_Center: {x: -1.0993314, y: -0.6271353, z: 0}
+  m_Size: {x: 0.9746976, y: 1.1728668, z: 1}
+  m_Center: {x: -1.1020072, y: -0.66192055, z: 0}
 --- !u!114 &2855943603010536106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +175,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  objTag: {fileID: 0}
 --- !u!114 &4716752166888450589
 MonoBehaviour:
   m_ObjectHideFlags: 0
