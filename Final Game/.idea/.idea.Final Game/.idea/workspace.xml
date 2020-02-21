@@ -43,10 +43,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FallSpike.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEnter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +121,7 @@
       <workItem from="1582169482423" duration="463000" />
       <workItem from="1582169960704" duration="794000" />
       <workItem from="1582170770565" duration="754000" />
+      <workItem from="1582215934735" duration="473000" />
     </task>
     <servers />
   </component>

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2fa21fd04206cf4382f2bcf2c436545, type: 3}
   m_Name: CrystalValue
   m_EditorClassIdentifier: 
-  value: 0
+  value: 2
