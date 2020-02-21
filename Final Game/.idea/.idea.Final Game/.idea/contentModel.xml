@@ -11,6 +11,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CreateData.cs" t="Include" />
           <e p="CrystalCounter.cs" t="Include" />
+          <e p="DamagePlayer.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GetCrystal.cs" t="Include" />

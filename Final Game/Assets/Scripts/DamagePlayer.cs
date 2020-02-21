@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TriggerEvents : MonoBehaviour
+public class DamagePlayer : MonoBehaviour
 {
-    public UnityEvent triggerEnter;
+    public UnityEvent damagePlayer;
+    public string objTag;
 
     private void OnTriggerEnter(Collider other)
     {
-        triggerEnter.Invoke();
+        if (other.tag == objTag)
+        {
+            damagePlayer.Invoke();
+        }
     }
 }
