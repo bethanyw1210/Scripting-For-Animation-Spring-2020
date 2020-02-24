@@ -44,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
         if(GameObject.FindGameObjectWithTag("Wall"))
         {
             jumpCount = 0f;
-            /*jumpCountMax = 1f;*/
         }
     }
 }
