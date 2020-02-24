@@ -6,35 +6,10 @@ using UnityEngine;
 
 public class FloatData : ScriptableObject
 {
-    public float value = 100f;
-    public float minValue = 0f;
-    public float maxValue = 1f;
-    
-    void Start()
-    {
-        value = 100f;
-    }
+    public float value = 1f;
 
-    public void UpdateValue(float amount)
+    public void ChangeValue(float number)
     {
-        value += amount;
-    }
-
-    public void UpdateValueRange(float amount)
-    {
-        if (value < maxValue)
-        {
-            UpdateValue(amount);
-        }
-        else
-        {
-            value = maxValue;
-        }
-
-        if (value > minValue)
-        {
-            UpdateValue(amount);
-        }
-        
+        value += number;
     }
 }

@@ -12,16 +12,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -39,10 +40,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/TextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +106,7 @@
       <workItem from="1581354999681" duration="3369000" />
       <workItem from="1581528278969" duration="2961000" />
       <workItem from="1582132398130" duration="3220000" />
+      <workItem from="1582564761277" duration="2909000" />
     </task>
     <servers />
   </component>

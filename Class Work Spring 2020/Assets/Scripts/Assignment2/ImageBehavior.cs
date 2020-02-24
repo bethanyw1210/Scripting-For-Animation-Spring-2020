@@ -9,10 +9,16 @@ using UnityEngine.UI;
 public class ImageBehavior : MonoBehaviour
 {
     private Image imageObj;
+    public FloatData dataObj;
 
     private void Start()
     {
         imageObj = GetComponent<Image>();
         imageObj.fillAmount = 10f;
+    }
+
+    private void Update()
+    {
+        imageObj.fillAmount = dataObj.value;
     }
 }

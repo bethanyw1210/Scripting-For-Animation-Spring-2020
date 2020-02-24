@@ -26,6 +26,7 @@
             <e p="IntData.cs" t="Include" />
             <e p="RigidBodyForces.cs" t="Include" />
             <e p="SpriteController.cs" t="Include" />
+            <e p="TextBehavior.cs" t="Include" />
           </e>
         </e>
       </e>
