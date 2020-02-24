@@ -40,7 +40,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetCrystal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalCounter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CreateData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FallSpike.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEnter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
@@ -50,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
       </list>
     </option>
@@ -130,6 +130,7 @@
       <workItem from="1582264145722" duration="1660000" />
       <workItem from="1582501260391" duration="734000" />
       <workItem from="1582502011898" duration="733000" />
+      <workItem from="1582564918402" duration="2196000" />
     </task>
     <servers />
   </component>
