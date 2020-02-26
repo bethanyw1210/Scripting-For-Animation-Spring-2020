@@ -7,13 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
-    public string levelLoad;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (GetComponent<CreateData>().value == 8)
+        if (GetComponent<IntData>().value == 8)
         {
-            SceneManager.LoadScene(levelLoad);
+            SceneManager.LoadScene("Shop");
         }
     }
 }

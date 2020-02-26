@@ -26,8 +26,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,7 +37,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WallJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIImageControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetCrystal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalCounter.cs" />
@@ -50,7 +50,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +134,11 @@
       <workItem from="1582501260391" duration="734000" />
       <workItem from="1582502011898" duration="733000" />
       <workItem from="1582564918402" duration="2196000" />
+      <workItem from="1582649971082" duration="624000" />
+      <workItem from="1582736793178" duration="261000" />
+      <workItem from="1582737074369" duration="105000" />
+      <workItem from="1582737194299" duration="1125000" />
+      <workItem from="1582738599332" duration="1772000" />
     </task>
     <servers />
   </component>

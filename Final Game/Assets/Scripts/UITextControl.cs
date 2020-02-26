@@ -10,7 +10,7 @@ public class UITextControl : MonoBehaviour
     public UnityEvent startEvent;
     private Text textLabel;
 
-    public void UpdateText(CreateData data)
+    public void UpdateText(IntData data)
     {
         textLabel.text = data.value.ToString();
     }

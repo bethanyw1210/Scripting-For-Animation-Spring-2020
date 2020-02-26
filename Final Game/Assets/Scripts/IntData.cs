@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 [CreateAssetMenu]
 
-public class CreateData : ScriptableObject
+public class IntData : ScriptableObject
 {
     public int value = 1;
 
@@ -18,5 +18,13 @@ public class CreateData : ScriptableObject
     {
         value += number;
     }
+
+/*    void LoadLevel()
+    {
+        if (value == 8f)
+        {
+            SceneManager.LoadScene("Shop");
+        }
+    }*/
     
 }
