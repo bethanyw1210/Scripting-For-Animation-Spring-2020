@@ -69,9 +69,12 @@
     <Compile Include="Assets\Scripts\Assignment2\IfStatements.cs" />
     <Compile Include="Assets\Scripts\Assignment2\ImageBehavior.cs" />
     <Compile Include="Assets\Scripts\Assignment2\IntData.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\Assignment2\RigidBodyForces.cs" />
     <Compile Include="Assets\Scripts\Assignment2\SpriteController.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\StringData.cs" />
     <Compile Include="Assets\Scripts\Assignment2\TextBehavior.cs" />
+    <Compile Include="Assets\Scripts\Assignment2\Vector3Data.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
