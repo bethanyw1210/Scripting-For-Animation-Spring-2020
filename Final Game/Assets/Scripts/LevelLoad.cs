@@ -8,7 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoad : ScriptableObject
 {
-    public void Start()
+    public string level;
+    
+    public void LoadScene()
     {
         SceneManager.LoadScene("Shop");
     }

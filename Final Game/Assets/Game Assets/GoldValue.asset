@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fa21fd04206cf4382f2bcf2c436545, type: 3}
-  m_Name: CrystalValue
+  m_Name: GoldValue
   m_EditorClassIdentifier: 
-  value: 3
+  value: 30
