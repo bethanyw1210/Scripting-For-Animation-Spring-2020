@@ -31,6 +31,11 @@
             <e p="TextBehavior.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="Assignment3" t="Include">
+            <e p="Collectable.cs" t="Include" />
+            <e p="CollectableList.cs" t="Include" />
+            <e p="ListsAndLoops.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Class Work Spring 2020.sln" t="IncludeFlat" />

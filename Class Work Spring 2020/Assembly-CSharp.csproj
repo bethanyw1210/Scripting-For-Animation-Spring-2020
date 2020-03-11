@@ -75,6 +75,9 @@
     <Compile Include="Assets\Scripts\Assignment2\StringData.cs" />
     <Compile Include="Assets\Scripts\Assignment2\TextBehavior.cs" />
     <Compile Include="Assets\Scripts\Assignment2\Vector3Data.cs" />
+    <Compile Include="Assets\Scripts\Assignment3\Collectable.cs" />
+    <Compile Include="Assets\Scripts\Assignment3\CollectableList.cs" />
+    <Compile Include="Assets\Scripts\Assignment3\ListsAndLoops.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
