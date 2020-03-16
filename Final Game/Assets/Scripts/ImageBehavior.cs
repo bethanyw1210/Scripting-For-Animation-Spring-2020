@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DamagePlayer : MonoBehaviour
+public class ImageBehavior : MonoBehaviour
 {
     public UnityEvent damagePlayer;
     public string objTag;

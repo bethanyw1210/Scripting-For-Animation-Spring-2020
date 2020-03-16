@@ -9,17 +9,17 @@
         <e p="Scripts" t="Include">
           <e p="AIMovement.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
-          <e p="CrystalCounter.cs" t="Include" />
-          <e p="DamagePlayer.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
+          <e p="DestroyObjectTrigger.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="GetCrystal.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LevelLoad.cs" t="Include" />
           <e p="LoadLevel.cs" t="Include" />
           <e p="ObjectMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ShootWeapon.cs" t="Include" />
+          <e p="TextBehavoir.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControl.cs" t="Include" />
           <e p="UITextControl.cs" t="Include" />

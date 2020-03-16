@@ -12,6 +12,6 @@ public class LevelLoad : ScriptableObject
     
     public void LoadScene()
     {
-        SceneManager.LoadScene("Shop");
+        SceneManager.LoadScene(level);
     }
 }
