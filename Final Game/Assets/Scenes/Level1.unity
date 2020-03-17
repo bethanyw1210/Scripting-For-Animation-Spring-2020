@@ -2327,6 +2327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 491429248629632505, guid: 4b481ceb5865c694a994e95993d429cd, type: 3}
   spawnPoint: {fileID: 1110907128}
+  spawnTime: 0.5
 --- !u!136 &729993949
 CapsuleCollider:
   m_ObjectHideFlags: 0

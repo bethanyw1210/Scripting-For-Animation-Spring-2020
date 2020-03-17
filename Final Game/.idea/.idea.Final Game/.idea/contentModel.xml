@@ -9,9 +9,11 @@
         <e p="Scripts" t="Include">
           <e p="AIMovement.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="Collectables.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="DestroyObjectTrigger.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GetKeyTest.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LevelLoad.cs" t="Include" />
