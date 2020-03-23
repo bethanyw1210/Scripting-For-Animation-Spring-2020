@@ -2169,7 +2169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbbf01f5a0bb8c469db1ccd85fe4ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 491429248629632505, guid: 4b481ceb5865c694a994e95993d429cd, type: 3}
+  weapon: {fileID: 8128521429166358623, guid: cbf9f0be5a07960458cdf59f9c343ef9, type: 3}
   spawnPoint: {fileID: 1110907128}
   spawnTime: 0.5
 --- !u!136 &729993949

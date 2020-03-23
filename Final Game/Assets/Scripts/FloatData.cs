@@ -36,18 +36,5 @@ public class FloatData : ScriptableObject
         {
             UpdateValue(amount);
         }
-
-        if (value <= 0f)
-        {
-            DeadPlayer();
-        }
-        
     }
-
-    public void DeadPlayer()
-    {
-        Destroy(GameObject.FindGameObjectWithTag("Player"));
-        SceneManager.LoadScene("MainMenu");
-    }
-
 }
