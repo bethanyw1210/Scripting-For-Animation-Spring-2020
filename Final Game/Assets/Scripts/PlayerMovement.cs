@@ -8,12 +8,15 @@ public class PlayerMovement : MonoBehaviour
 {
     private Vector3 position;
     private CharacterController controller;
+    public GameObject weapon, spawnPoint;
+    public float spawnTime;
 
     private float speed = 10f, gravity = -1.5f, jumpSpeed = 30f, jumpCount, jumpCountMax = 1f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        StartCoroutine(SpawnWeapon());
     }
     
     void Update()
@@ -37,6 +40,19 @@ public class PlayerMovement : MonoBehaviour
             jumpCount++;
         }
         controller.Move (position * Time.deltaTime);
+    }
+
+    IEnumerator SpawnWeapon()
+    {
+        while (true)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                Instantiate(weapon, spawnPoint.transform.position, Quaternion.identity);
+            }
+
+            yield return new WaitForSeconds(spawnTime);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
