@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Assignment3\Debugger.cs" />
     <Compile Include="Assets\Scripts\Assignment3\EnumSwitches.cs" />
     <Compile Include="Assets\Scripts\Assignment3\ListsAndLoops.cs" />
+    <Compile Include="Assets\Scripts\Assignment3\NavAgentBehavior.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
