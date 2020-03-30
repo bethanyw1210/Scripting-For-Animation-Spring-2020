@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment3/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment4/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/StringData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/MonoBehaviors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/Vector3Data.cs" />
@@ -64,6 +64,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment3/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment3/EnumSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment3/NavAgentBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment4/Coroutines.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +136,7 @@
       <workItem from="1584980080795" duration="613000" />
       <workItem from="1584980710886" duration="2403000" />
       <workItem from="1585154512134" duration="1570000" />
+      <workItem from="1585585532523" duration="3184000" />
     </task>
     <servers />
   </component>

@@ -15,9 +15,20 @@ public class TextBehavior : MonoBehaviour
     {
         textObj = GetComponent<Text>();
     }
+/*
 
     private void Update()
     {
         textObj.text = dataObj.value.ToString();
+    }*/
+
+    public void ChangeText(string message)
+    {
+        textObj.text = message;
+    }
+
+    public void ChangeText(IntData obj)
+    {
+        textObj.text = obj.value.ToString();
     }
 }
