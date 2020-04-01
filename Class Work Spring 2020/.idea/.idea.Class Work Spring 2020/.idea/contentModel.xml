@@ -40,6 +40,8 @@
             <e p="NavAgentBehavior.cs" t="Include" />
           </e>
           <e p="Assignment4" t="Include">
+            <e p="AiPatrol.cs" t="Include" />
+            <e p="Coroutine2.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
           </e>
         </e>

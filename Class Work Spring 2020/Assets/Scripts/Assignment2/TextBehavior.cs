@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
-    public IntData dataObj;
+    /*public IntData dataObj;*/
 
     private void Start()
     {

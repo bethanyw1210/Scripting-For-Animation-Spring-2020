@@ -81,6 +81,8 @@
     <Compile Include="Assets\Scripts\Assignment3\EnumSwitches.cs" />
     <Compile Include="Assets\Scripts\Assignment3\ListsAndLoops.cs" />
     <Compile Include="Assets\Scripts\Assignment3\NavAgentBehavior.cs" />
+    <Compile Include="Assets\Scripts\Assignment4\AiPatrol.cs" />
+    <Compile Include="Assets\Scripts\Assignment4\Coroutine2.cs" />
     <Compile Include="Assets\Scripts\Assignment4\Coroutines.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
