@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamagePlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +160,7 @@
       <workItem from="1584320590118" duration="2831000" />
       <workItem from="1584935297470" duration="172000" />
       <workItem from="1584984952044" duration="652000" />
+      <workItem from="1586059048962" duration="2486000" />
     </task>
     <servers />
   </component>

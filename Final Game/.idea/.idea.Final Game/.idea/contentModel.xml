@@ -25,6 +25,7 @@
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControl.cs" t="Include" />
           <e p="UITextControl.cs" t="Include" />
+          <e p="WeaponDamage.cs" t="Include" />
         </e>
       </e>
       <e p="Final Game.sln" t="IncludeFlat" />
