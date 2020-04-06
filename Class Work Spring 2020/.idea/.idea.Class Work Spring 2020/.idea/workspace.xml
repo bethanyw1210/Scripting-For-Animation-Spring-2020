@@ -48,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/IfStatements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/IfStatements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/RigidBodyForces.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/ControlLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" />
@@ -71,6 +70,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment2/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment4/AiPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment3/NavAgentBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +142,7 @@
       <workItem from="1585154512134" duration="1570000" />
       <workItem from="1585585532523" duration="3184000" />
       <workItem from="1585758502107" duration="2973000" />
+      <workItem from="1586193176134" duration="329000" />
     </task>
     <servers />
   </component>
