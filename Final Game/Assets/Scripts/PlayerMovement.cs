@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 [RequireComponent(typeof(CharacterController))]
 
 public class PlayerMovement : MonoBehaviour
@@ -11,10 +13,13 @@ public class PlayerMovement : MonoBehaviour
     public GameObject weapon, spawnPoint;
     public float spawnTime;
 
+    public UnityEvent idleEvent, jumpEvent, walkEvent, attackEvent;
+
     private float speed = 10f, gravity = -1.5f, jumpSpeed = 30f, jumpCount, jumpCountMax = 1f;
 
     void Start()
     {
+        walkEvent.Invoke();
         controller = GetComponent<CharacterController>();
         StartCoroutine(SpawnWeapon());
     }
@@ -22,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         position.x = speed * Input.GetAxis("Horizontal");
+        walkEvent.Invoke();
 
         if (controller.isGrounded)
         {
@@ -36,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
+            jumpEvent.Invoke();
             position.y = jumpSpeed;
             jumpCount++;
         }
@@ -48,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
+                attackEvent.Invoke();
                 Instantiate(weapon, spawnPoint.transform.position, Quaternion.identity);
             }
 
