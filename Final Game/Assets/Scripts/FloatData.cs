@@ -36,5 +36,10 @@ public class FloatData : ScriptableObject
         {
             UpdateValue(amount);
         }
+        if (value <= 0)
+        {
+            SceneManager.LoadScene("Dead");
+        }
     }
+    
 }

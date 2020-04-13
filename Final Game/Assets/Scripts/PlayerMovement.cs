@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        walkEvent.Invoke();
         controller = GetComponent<CharacterController>();
         StartCoroutine(SpawnWeapon());
     }
@@ -27,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         position.x = speed * Input.GetAxis("Horizontal");
-        walkEvent.Invoke();
 
         if (controller.isGrounded)
         {
@@ -47,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
             jumpCount++;
         }
         controller.Move (position * Time.deltaTime);
+        walkEvent.Invoke();
     }
 
     IEnumerator SpawnWeapon()

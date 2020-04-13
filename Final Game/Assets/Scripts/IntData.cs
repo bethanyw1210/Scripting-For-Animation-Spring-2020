@@ -19,12 +19,4 @@ public class IntData : ScriptableObject
         value += number;
     }
 
-/*    void LoadLevel()
-    {
-        if (value == 8f)
-        {
-            SceneManager.LoadScene("Shop");
-        }
-    }*/
-    
 }

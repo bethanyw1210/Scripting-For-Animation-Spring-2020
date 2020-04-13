@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7666b189d815d8d4ab94f79341b924ac, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 2e61d29b361beb644b8519bf57b41292, type: 3}
+  m_Name: Level1
   m_EditorClassIdentifier: 
-  value: 0
-  minValue: 0
-  maxValue: 100
+  level: Level1

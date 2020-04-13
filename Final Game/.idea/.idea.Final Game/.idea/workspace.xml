@@ -52,7 +52,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DamagePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavoir.cs" />
@@ -63,9 +62,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetKeyTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -164,6 +164,7 @@
       <workItem from="1586062568889" duration="509000" />
       <workItem from="1586237814915" duration="226000" />
       <workItem from="1586574884692" duration="2015000" />
+      <workItem from="1586753068257" duration="1633000" />
     </task>
     <servers />
   </component>
