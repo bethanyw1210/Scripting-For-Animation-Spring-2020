@@ -43,7 +43,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WallJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIImageControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetCrystal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FallSpike.cs" />
@@ -66,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +165,7 @@
       <workItem from="1586237814915" duration="226000" />
       <workItem from="1586574884692" duration="2015000" />
       <workItem from="1586753068257" duration="1633000" />
+      <workItem from="1586796322565" duration="776000" />
     </task>
     <servers />
   </component>

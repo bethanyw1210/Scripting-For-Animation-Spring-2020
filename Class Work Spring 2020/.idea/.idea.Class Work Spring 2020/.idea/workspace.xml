@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment2/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment3/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment4/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment4/AiPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment3/NavAgentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Assignment1/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
       </list>
     </option>
   </component>
@@ -143,6 +145,7 @@
       <workItem from="1585585532523" duration="3184000" />
       <workItem from="1585758502107" duration="2973000" />
       <workItem from="1586193176134" duration="329000" />
+      <workItem from="1586969392042" duration="1021000" />
     </task>
     <servers />
   </component>

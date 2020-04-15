@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Assignment4\AiPatrol.cs" />
     <Compile Include="Assets\Scripts\Assignment4\Coroutine2.cs" />
     <Compile Include="Assets\Scripts\Assignment4\Coroutines.cs" />
+    <Compile Include="Assets\Scripts\TransformBehavior.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/betha/OneDrive/Documents/Unity/Scripting-For-Animation-Spring-2020/Class Work Spring 2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
