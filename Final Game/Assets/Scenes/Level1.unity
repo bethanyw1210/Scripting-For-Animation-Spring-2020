@@ -5444,12 +5444,48 @@ PrefabInstance:
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.63
+      value: 45.65
       objectReference: {fileID: 0}
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 9013491966397202644, guid: 56b81b39079f8e34c91888434fb5c881,
+        type: 3}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 107111556790929079, guid: dbd846e36f594da4faee5d7d5b5d83ab,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbd846e36f594da4faee5d7d5b5d83ab, type: 3}

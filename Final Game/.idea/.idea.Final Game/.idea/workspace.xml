@@ -47,7 +47,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FallSpike.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEnter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamagePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UITextControl.cs" />
@@ -56,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavoir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObjectTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetKeyTest.cs" />
@@ -66,6 +64,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObjectTrigger.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +166,7 @@
       <workItem from="1586574884692" duration="2015000" />
       <workItem from="1586753068257" duration="1633000" />
       <workItem from="1586796322565" duration="776000" />
+      <workItem from="1587003082262" duration="759000" />
     </task>
     <servers />
   </component>
