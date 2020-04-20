@@ -10,9 +10,9 @@
           <e p="AIMovement.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
+          <e p="CrystalArray.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="DestroyObjectTrigger.cs" t="Include" />
-          <e p="EnemyArray.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GetKeyTest.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
@@ -21,6 +21,7 @@
           <e p="LoadLevel.cs" t="Include" />
           <e p="ObjectMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PotionList.cs" t="Include" />
           <e p="PowerupSpawn.cs" t="Include" />
           <e p="RemovePotion.cs" t="Include" />
           <e p="ShootWeapon.cs" t="Include" />

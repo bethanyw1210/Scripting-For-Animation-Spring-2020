@@ -15,7 +15,7 @@ public class PowerupSpawn : MonoBehaviour
     
     private void SpawnPowerup()
     {
-        powerupChance = Random.Range(1, 6);
+        powerupChance = Random.Range(1, 5);
         switch (powerupChance)
         {
             case 1:
@@ -23,16 +23,16 @@ public class PowerupSpawn : MonoBehaviour
                 print("Powerup");
                 break;
             case 2:
+                objectToCreate = null;
                 print("None1");
                 break;
             case 3:
+                objectToCreate = null;
                 print("None2");
                 break;
             case 4:
+                objectToCreate = null;
                 print("None3");
-                break;
-            case 5:
-                print("None4");
                 break;
         }
         
