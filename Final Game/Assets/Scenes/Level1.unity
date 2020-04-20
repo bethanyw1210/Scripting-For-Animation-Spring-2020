@@ -7548,7 +7548,7 @@ PrefabInstance:
     - target: {fileID: 3823039805389922698, guid: 687cebf28b045454a898ed85ba1a6c9d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.76
+      value: 17.95
       objectReference: {fileID: 0}
     - target: {fileID: 3823039805389922698, guid: 687cebf28b045454a898ed85ba1a6c9d,
         type: 3}
@@ -7629,6 +7629,16 @@ PrefabInstance:
         type: 3}
       propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UpdateImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 18.459332
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -2.3961983
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 687cebf28b045454a898ed85ba1a6c9d, type: 3}
@@ -8509,6 +8519,16 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 20.160088
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -1.6425662
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 687cebf28b045454a898ed85ba1a6c9d, type: 3}

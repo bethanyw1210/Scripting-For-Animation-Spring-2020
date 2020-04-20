@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3551472222515664309}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpikeWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3551472222559648246}
   - component: {fileID: 3551472222559648247}
   - component: {fileID: 3551472222559648244}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
