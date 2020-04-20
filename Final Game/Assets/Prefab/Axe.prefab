@@ -153,7 +153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objTag: Enemy
-  enemy: {fileID: 3823039805389922702, guid: 687cebf28b045454a898ed85ba1a6c9d, type: 3}
+  powerupChance: 0
+  objectToCreate: {fileID: 0}
+  powerUp: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!114 &7921678070231606636
 MonoBehaviour:
   m_ObjectHideFlags: 0

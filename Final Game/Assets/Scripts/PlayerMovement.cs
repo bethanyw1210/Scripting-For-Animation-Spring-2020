@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     public GameObject weapon, spawnPoint;
     public float spawnTime;
+    public string objTag;
 
     public UnityEvent idleEvent, jumpEvent, walkEvent, attackEvent;
 
@@ -68,5 +69,21 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpCount = 0f;
         }
+
+        if (other.tag == objTag)
+        {
+            Destroy(other.gameObject);
+            jumpCountMax = 2f;
+            jumpCount = 0;
+            StartCoroutine(PowerupTime());
+        }
     }
+    
+    IEnumerator PowerupTime()
+    {
+        yield return new WaitForSeconds(5f);
+        jumpCountMax = 1f;
+        jumpCount = 0;
+    }
+    
 }

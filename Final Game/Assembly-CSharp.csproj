@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\ObjectMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PowerupSpawn.cs" />
     <Compile Include="Assets\Scripts\RemovePotion.cs" />
     <Compile Include="Assets\Scripts\ShootWeapon.cs" />
     <Compile Include="Assets\Scripts\TextBehavoir.cs" />

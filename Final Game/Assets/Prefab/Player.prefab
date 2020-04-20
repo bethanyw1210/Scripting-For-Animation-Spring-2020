@@ -465,6 +465,7 @@ MonoBehaviour:
   weapon: {fileID: 7921678070231606633, guid: 3c7f0dd3bda95f347be20fbee552449c, type: 3}
   spawnPoint: {fileID: 89852026318438843}
   spawnTime: 0.5
+  objTag: Powerup
   idleEvent:
     m_PersistentCalls:
       m_Calls:

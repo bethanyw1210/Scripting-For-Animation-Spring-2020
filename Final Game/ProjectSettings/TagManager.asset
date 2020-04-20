@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Enemy
   - Potion
+  - Powerup
   layers:
   - Default
   - TransparentFX

@@ -21,6 +21,7 @@
           <e p="LoadLevel.cs" t="Include" />
           <e p="ObjectMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PowerupSpawn.cs" t="Include" />
           <e p="RemovePotion.cs" t="Include" />
           <e p="ShootWeapon.cs" t="Include" />
           <e p="TextBehavoir.cs" t="Include" />
