@@ -2095,16 +2095,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 771569330692250364, guid: 61e6485efea582043b53217f50588220,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 4.3944516
-      objectReference: {fileID: 0}
-    - target: {fileID: 771569330692250364, guid: 61e6485efea582043b53217f50588220,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -1.4350016
-      objectReference: {fileID: 0}
     - target: {fileID: 771569330643826364, guid: 61e6485efea582043b53217f50588220,
         type: 3}
       propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2114,6 +2104,16 @@ PrefabInstance:
         type: 3}
       propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UpdateImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 771569330692250364, guid: 61e6485efea582043b53217f50588220,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.3944516
+      objectReference: {fileID: 0}
+    - target: {fileID: 771569330692250364, guid: 61e6485efea582043b53217f50588220,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -1.4350016
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e6485efea582043b53217f50588220, type: 3}
@@ -2633,12 +2633,12 @@ PrefabInstance:
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.7
+      value: -17.168203
       objectReference: {fileID: 0}
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.11
+      value: 34.57
       objectReference: {fileID: 0}
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
@@ -2658,12 +2658,12 @@ PrefabInstance:
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
@@ -2683,7 +2683,7 @@ PrefabInstance:
     - target: {fileID: 4122485872830637814, guid: dbd846e36f594da4faee5d7d5b5d83ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbd846e36f594da4faee5d7d5b5d83ab, type: 3}
@@ -3915,6 +3915,7 @@ GameObject:
   - component: {fileID: 1861685655}
   - component: {fileID: 1861685657}
   - component: {fileID: 1861685656}
+  - component: {fileID: 1861685658}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -3997,6 +3998,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1861685658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861685654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfe42aecfd1e7448983d91c33544fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 31d23bdf8d73ded49b2d5f27a066ee6a, type: 2}
+        m_MethodName: UpdateValueRange
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -100
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 614486641}
+        m_MethodName: UpdateImage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 31d23bdf8d73ded49b2d5f27a066ee6a,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  objTag: Player
 --- !u!1 &1918875782
 GameObject:
   m_ObjectHideFlags: 0
@@ -4101,6 +4143,7 @@ GameObject:
   - component: {fileID: 1933908947}
   - component: {fileID: 1933908949}
   - component: {fileID: 1933908948}
+  - component: {fileID: 1933908950}
   m_Layer: 0
   m_Name: Lava (1)
   m_TagString: Untagged
@@ -4183,6 +4226,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1933908950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933908946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfe42aecfd1e7448983d91c33544fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 31d23bdf8d73ded49b2d5f27a066ee6a, type: 2}
+        m_MethodName: UpdateValueRange
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -100
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 614486641}
+        m_MethodName: UpdateImage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 31d23bdf8d73ded49b2d5f27a066ee6a,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  objTag: Player
 --- !u!1001 &2130052916
 PrefabInstance:
   m_ObjectHideFlags: 0

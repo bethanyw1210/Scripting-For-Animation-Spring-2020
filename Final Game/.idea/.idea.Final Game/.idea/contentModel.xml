@@ -25,6 +25,7 @@
           <e p="PowerupSpawn.cs" t="Include" />
           <e p="RemovePotion.cs" t="Include" />
           <e p="ShootWeapon.cs" t="Include" />
+          <e p="StayOnPlatform.cs" t="Include" />
           <e p="TextBehavoir.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControl.cs" t="Include" />
