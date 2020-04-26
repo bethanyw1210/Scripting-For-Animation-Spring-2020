@@ -659,21 +659,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 20.81464
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -4.818667
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0
-      objectReference: {fileID: 0}
     - target: {fileID: 3823039805389922700, guid: 687cebf28b045454a898ed85ba1a6c9d,
         type: 3}
       propertyPath: destinationObj
@@ -688,6 +673,21 @@ PrefabInstance:
         type: 3}
       propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UpdateImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 20.81464
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -4.818667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 687cebf28b045454a898ed85ba1a6c9d, type: 3}
@@ -2164,16 +2164,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 771569330643826364, guid: 61e6485efea582043b53217f50588220,
-        type: 3}
-      propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 614486641}
-    - target: {fileID: 771569330643826364, guid: 61e6485efea582043b53217f50588220,
-        type: 3}
-      propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: UpdateImage
-      objectReference: {fileID: 0}
     - target: {fileID: 771569330692250364, guid: 61e6485efea582043b53217f50588220,
         type: 3}
       propertyPath: m_Size.y
@@ -2183,6 +2173,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: -1.4350016
+      objectReference: {fileID: 0}
+    - target: {fileID: 771569330643826364, guid: 61e6485efea582043b53217f50588220,
+        type: 3}
+      propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 614486641}
+    - target: {fileID: 771569330643826364, guid: 61e6485efea582043b53217f50588220,
+        type: 3}
+      propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateImage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e6485efea582043b53217f50588220, type: 3}
@@ -2771,12 +2771,12 @@ PrefabInstance:
     - target: {fileID: 397027702530952839, guid: 59a05d02e51dc634db14a00d02c13973,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.2
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: 397027702530952839, guid: 59a05d02e51dc634db14a00d02c13973,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 43.8
+      value: 21.6
       objectReference: {fileID: 0}
     - target: {fileID: 397027702530952839, guid: 59a05d02e51dc634db14a00d02c13973,
         type: 3}
@@ -3902,16 +3902,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 14.325986
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -1.162993
-      objectReference: {fileID: 0}
     - target: {fileID: 3823039805389922700, guid: 687cebf28b045454a898ed85ba1a6c9d,
         type: 3}
       propertyPath: destinationObj
@@ -3926,6 +3916,16 @@ PrefabInstance:
         type: 3}
       propertyPath: damagePlayer.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UpdateImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 14.325986
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823039805389922703, guid: 687cebf28b045454a898ed85ba1a6c9d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -1.162993
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 687cebf28b045454a898ed85ba1a6c9d, type: 3}
