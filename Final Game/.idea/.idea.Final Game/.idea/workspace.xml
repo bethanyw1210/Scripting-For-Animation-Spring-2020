@@ -66,8 +66,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetKeyTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObjectTrigger.cs" />
@@ -80,6 +78,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerupSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PotionList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalArray.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +191,7 @@
       <workItem from="1587348167984" duration="425000" />
       <workItem from="1587348613840" duration="1137000" />
       <workItem from="1587349773831" duration="218000" />
+      <workItem from="1587875420763" duration="414000" />
     </task>
     <servers />
   </component>

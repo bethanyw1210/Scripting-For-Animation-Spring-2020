@@ -38,7 +38,9 @@ public class FloatData : ScriptableObject
         }
         if (value <= 0)
         {
-            SceneManager.LoadScene("Dead");
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+            value = maxValue;
         }
     }
     
