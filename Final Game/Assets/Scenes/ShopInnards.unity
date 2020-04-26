@@ -548,17 +548,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
-        type: 3}
-      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 50ce2477c3a6d0b409d64546397994c4,
-        type: 2}
-    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
-        type: 3}
-      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
     - target: {fileID: 5557646502247061224, guid: 803712d69ad5a364d97278bd296c9616,
         type: 3}
       propertyPath: m_IsTrigger
@@ -578,6 +567,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: 0.043915804
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 50ce2477c3a6d0b409d64546397994c4,
+        type: 2}
+    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 803712d69ad5a364d97278bd296c9616, type: 3}
@@ -2065,6 +2065,11 @@ PrefabInstance:
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1710991703}
+    - target: {fileID: 3137031403007223864, guid: 8af323e5d164b8941a63f84a1c8be5ec,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateImage
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af323e5d164b8941a63f84a1c8be5ec, type: 3}
 --- !u!1001 &4084373738346117537
@@ -2139,6 +2144,11 @@ PrefabInstance:
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1710991703}
+    - target: {fileID: 4084373738336199946, guid: 6a89ca8c6272d694cb67823ee689a8ae,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateImage
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a89ca8c6272d694cb67823ee689a8ae, type: 3}
 --- !u!1001 &5340981058812307395
@@ -2217,6 +2227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340981059000484007, guid: 0c819aac68ff076419387f4735dbaf6c,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateImage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c819aac68ff076419387f4735dbaf6c, type: 3}
