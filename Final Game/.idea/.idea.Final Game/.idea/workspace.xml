@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsArray.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamagePlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,7 +41,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UITextControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIImageControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RemovePotion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyArray.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,22 +69,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GetKeyTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObjectTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RemovePotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyArray.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerupDrop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerupSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PotionList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CrystalArray.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StayOnPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InvokeParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RemovePotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PotionList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrystalArray.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsArray.cs" />
       </list>
     </option>
   </component>
@@ -201,6 +203,9 @@
       <workItem from="1587939219294" duration="1325000" />
       <workItem from="1587947371376" duration="705000" />
       <workItem from="1587948623161" duration="963000" />
+      <workItem from="1587949869220" duration="209000" />
+      <workItem from="1587950099935" duration="2361000" />
+      <workItem from="1587952484550" duration="790000" />
     </task>
     <servers />
   </component>

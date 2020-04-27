@@ -153,10 +153,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objTag: Enemy
-  powerupChance: 0
-  objectToCreate: {fileID: 0}
-  powerUp: {fileID: 0}
-  spawnPoint: {fileID: 0}
+  particleSystem:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &7921678070231606636
 MonoBehaviour:
   m_ObjectHideFlags: 0

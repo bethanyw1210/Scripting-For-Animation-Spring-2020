@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: PotionList
   m_EditorClassIdentifier: 
   potionType:
-  - {fileID: 8688341435517800640, guid: 5cec12c14fa19d545976cd3b76a9ad10, type: 3}
-  - {fileID: 1540307355800997445, guid: 1e5a3090bb63bef4386be85550a226a2, type: 3}
-  - {fileID: 3624882578321993598, guid: 2d3778af1b1827b4284f3a7966412841, type: 3}
-  potionObj1: {fileID: 8688341435517800640, guid: 5cec12c14fa19d545976cd3b76a9ad10,
-    type: 3}
-  potionObj2: {fileID: 1540307355800997445, guid: 1e5a3090bb63bef4386be85550a226a2,
-    type: 3}
-  potionObj3: {fileID: 3624882578321993598, guid: 2d3778af1b1827b4284f3a7966412841,
-    type: 3}
+  - {fileID: 5340981058621216985, guid: 0c819aac68ff076419387f4735dbaf6c, type: 3}
+  - {fileID: 3137031404181563990, guid: 8af323e5d164b8941a63f84a1c8be5ec, type: 3}
+  - {fileID: 4084373738013019573, guid: 6a89ca8c6272d694cb67823ee689a8ae, type: 3}

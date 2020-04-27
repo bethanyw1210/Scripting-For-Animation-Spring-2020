@@ -263,37 +263,7 @@ Transform:
   m_LocalScale: {x: 0.39773, y: 0.39773, z: 0.39773}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &289526505
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 289526507}
-  m_Layer: 0
-  m_Name: PotionList
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &289526507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289526505}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5670233, y: 36.77858, z: 1.0195312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303278648
 GameObject:
@@ -548,17 +518,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
-        type: 3}
-      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 50ce2477c3a6d0b409d64546397994c4,
-        type: 2}
-    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
-        type: 3}
-      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
     - target: {fileID: 5557646502247061224, guid: 803712d69ad5a364d97278bd296c9616,
         type: 3}
       propertyPath: m_IsTrigger
@@ -578,6 +537,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: 0.043915804
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 50ce2477c3a6d0b409d64546397994c4,
+        type: 2}
+    - target: {fileID: 5557646502247061225, guid: 803712d69ad5a364d97278bd296c9616,
+        type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 803712d69ad5a364d97278bd296c9616, type: 3}
@@ -844,7 +814,7 @@ Transform:
   m_LocalScale: {x: 0.39773, y: 0.39773, z: 0.39773}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1076036799
 PrefabInstance:
@@ -1006,7 +976,7 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.75, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1335771267
 GameObject:
@@ -1268,7 +1238,7 @@ Transform:
   m_LocalScale: {x: 0.39773, y: 0.39773, z: 0.39773}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468850486
 GameObject:
@@ -1394,7 +1364,7 @@ PrefabInstance:
     - target: {fileID: 6210889425866375801, guid: 35f26be0c4b43504cb798d4e166728c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6210889425866375801, guid: 35f26be0c4b43504cb798d4e166728c6,
         type: 3}
@@ -1684,7 +1654,7 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.75, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1962354134
 GameObject:
@@ -1777,7 +1747,7 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.75, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1965110623
 GameObject:
@@ -2044,10 +2014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6baa0e8e48a8424bae16b2b9ff3dfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potionObj:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  removePotion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &2125437665
 Transform:
   m_ObjectHideFlags: 0
@@ -2112,7 +2083,7 @@ PrefabInstance:
     - target: {fileID: 3137031404181563984, guid: 8af323e5d164b8941a63f84a1c8be5ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3137031404181563984, guid: 8af323e5d164b8941a63f84a1c8be5ec,
         type: 3}
@@ -2191,7 +2162,7 @@ PrefabInstance:
     - target: {fileID: 4084373738013019575, guid: 6a89ca8c6272d694cb67823ee689a8ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4084373738013019575, guid: 6a89ca8c6272d694cb67823ee689a8ae,
         type: 3}
@@ -2270,7 +2241,7 @@ PrefabInstance:
     - target: {fileID: 5340981058621216991, guid: 0c819aac68ff076419387f4735dbaf6c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5340981058621216991, guid: 0c819aac68ff076419387f4735dbaf6c,
         type: 3}

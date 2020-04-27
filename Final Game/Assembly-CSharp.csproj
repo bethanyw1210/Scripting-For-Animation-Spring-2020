@@ -59,18 +59,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AIMovement.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Collectables.cs" />
-    <Compile Include="Assets\Scripts\CrystalArray.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\DestroyObjectTrigger.cs" />
     <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
-    <Compile Include="Assets\Scripts\GetKeyTest.cs" />
     <Compile Include="Assets\Scripts\ImageBehavior.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\LevelLoad.cs" />
     <Compile Include="Assets\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\ObjectMovement.cs" />
+    <Compile Include="Assets\Scripts\ObjectsArray.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PotionList.cs" />
