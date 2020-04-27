@@ -23,9 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: 6ec63d27b88b42f48921bf90cd6223e4
-  - enabled: 1
-    path: Assets/Scenes/Dead.unity
-    guid: 280b6c18c8a9a534f983f450b44eb089
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: dba1cdec747d34a409decb60f2a6377a
@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8ae3a86caf98afd4bb8e9e0afbbcdc9c
+  - enabled: 1
+    path: Assets/Scenes/InfoPage.unity
+    guid: 4eb273d162b8b0f48a500e8438a1dc98
+  - enabled: 1
+    path: Assets/Scenes/Pause.unity
+    guid: 4b5853c8d9fb94149b3ca3307a7450ee
   m_configObjects: {}

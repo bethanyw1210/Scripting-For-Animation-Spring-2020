@@ -13,6 +13,7 @@
           <e p="CrystalArray.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="DestroyObjectTrigger.cs" t="Include" />
+          <e p="ExitGame.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GetKeyTest.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
@@ -20,12 +21,12 @@
           <e p="LevelLoad.cs" t="Include" />
           <e p="LoadLevel.cs" t="Include" />
           <e p="ObjectMovement.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PotionList.cs" t="Include" />
           <e p="PowerupSpawn.cs" t="Include" />
           <e p="RemovePotion.cs" t="Include" />
           <e p="ShootWeapon.cs" t="Include" />
-          <e p="StayOnPlatform.cs" t="Include" />
           <e p="TextBehavoir.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControl.cs" t="Include" />
